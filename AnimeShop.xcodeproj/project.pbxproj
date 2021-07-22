@@ -13,17 +13,18 @@
 		A6CCB13526354724001DA2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB13326354724001DA2EE /* Main.storyboard */; };
 		A6CCB13726354727001DA2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB13626354727001DA2EE /* Assets.xcassets */; };
 		A6CCB13A26354727001DA2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB13826354727001DA2EE /* LaunchScreen.storyboard */; };
+		B877067826A93D6A0051C700 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B877067726A93D6A0051C700 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6CCB12A26354724001DA2EE /* DemoChangeContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoChangeContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CCB12A26354724001DA2EE /* AnimeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CCB12D26354724001DA2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6CCB12F26354724001DA2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A6CCB13126354724001DA2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6CCB13426354724001DA2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6CCB13626354727001DA2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CCB13926354727001DA2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6CCB13B26354727001DA2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B877067726A93D6A0051C700 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +41,7 @@
 		A6CCB12126354724001DA2EE = {
 			isa = PBXGroup;
 			children = (
-				A6CCB12C26354724001DA2EE /* DemoChangeContent */,
+				A6CCB12C26354724001DA2EE /* AnimeShop */,
 				A6CCB12B26354724001DA2EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +49,12 @@
 		A6CCB12B26354724001DA2EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6CCB12A26354724001DA2EE /* DemoChangeContent.app */,
+				A6CCB12A26354724001DA2EE /* AnimeShop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6CCB12C26354724001DA2EE /* DemoChangeContent */ = {
+		A6CCB12C26354724001DA2EE /* AnimeShop */ = {
 			isa = PBXGroup;
 			children = (
 				A6CCB12D26354724001DA2EE /* AppDelegate.swift */,
@@ -62,17 +63,17 @@
 				A6CCB13326354724001DA2EE /* Main.storyboard */,
 				A6CCB13626354727001DA2EE /* Assets.xcassets */,
 				A6CCB13826354727001DA2EE /* LaunchScreen.storyboard */,
-				A6CCB13B26354727001DA2EE /* Info.plist */,
+				B877067726A93D6A0051C700 /* Info.plist */,
 			);
-			path = DemoChangeContent;
+			path = AnimeShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6CCB12926354724001DA2EE /* DemoChangeContent */ = {
+		A6CCB12926354724001DA2EE /* AnimeShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6CCB13E26354727001DA2EE /* Build configuration list for PBXNativeTarget "DemoChangeContent" */;
+			buildConfigurationList = A6CCB13E26354727001DA2EE /* Build configuration list for PBXNativeTarget "AnimeShop" */;
 			buildPhases = (
 				A6CCB12626354724001DA2EE /* Sources */,
 				A6CCB12726354724001DA2EE /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = DemoChangeContent;
+			name = AnimeShop;
 			productName = DemoChangeContent;
-			productReference = A6CCB12A26354724001DA2EE /* DemoChangeContent.app */;
+			productReference = A6CCB12A26354724001DA2EE /* AnimeShop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A6CCB12526354724001DA2EE /* Build configuration list for PBXProject "DemoChangeContent" */;
+			buildConfigurationList = A6CCB12526354724001DA2EE /* Build configuration list for PBXProject "AnimeShop" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6CCB12926354724001DA2EE /* DemoChangeContent */,
+				A6CCB12926354724001DA2EE /* AnimeShop */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B877067826A93D6A0051C700 /* Info.plist in Resources */,
 				A6CCB13A26354727001DA2EE /* LaunchScreen.storyboard in Resources */,
 				A6CCB13726354727001DA2EE /* Assets.xcassets in Resources */,
 				A6CCB13526354724001DA2EE /* Main.storyboard in Resources */,
@@ -284,10 +286,9 @@
 		A6CCB13F26354727001DA2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoChangeContent/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimeShop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,10 +303,9 @@
 		A6CCB14026354727001DA2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoChangeContent/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimeShop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6CCB12526354724001DA2EE /* Build configuration list for PBXProject "DemoChangeContent" */ = {
+		A6CCB12526354724001DA2EE /* Build configuration list for PBXProject "AnimeShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6CCB13C26354727001DA2EE /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6CCB13E26354727001DA2EE /* Build configuration list for PBXNativeTarget "DemoChangeContent" */ = {
+		A6CCB13E26354727001DA2EE /* Build configuration list for PBXNativeTarget "AnimeShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6CCB13F26354727001DA2EE /* Debug */,
